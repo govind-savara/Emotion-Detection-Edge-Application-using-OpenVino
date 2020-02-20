@@ -7,10 +7,12 @@
 
 This Emotion Detection application can be used to detect the emotions of the faces on an image or video stream using Intel® hardware and software tools.
 
-Inference on Image
+**Inference on Image**
+
 ![Inference on Image][image1]
 
-Inference on Video
+**Inference on Video**
+
 ![Inference on Video][image2]
 
 ## Models
@@ -50,12 +52,14 @@ Utilize the classroom workspace, or refer to the relevant instructions for your 
  
 ### Command to run the program
  For input image or video 
+ 
  ```python app.py -i input/image/or/video/path -ct 0.6```
  
  For camera streaming
+ 
  ```python app.py -i CAM -ct 0.7```
  
- ## Future Works 
+## Future Works 
  - implement the Server Communications for this application
  - calculate the overall emotions in a videos to determine the video type
  - Analysis of predicted emotions and time duration on the video
